@@ -1,4 +1,9 @@
 PushServer::Application.routes.draw do
+  resources :devices
+
+  match 'devices/:id/push' => 'devices#push', :as => :push
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

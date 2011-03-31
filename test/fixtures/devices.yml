@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  type: MyString
+  registration_id: MyString
+
+two:
+  type: MyString
+  registration_id: MyString
